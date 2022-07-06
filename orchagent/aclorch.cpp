@@ -4179,7 +4179,7 @@ void AclOrch::doAclTableTask(Consumer &consumer)
             // validate and create/update ACL Table
             if (bAllAttributesOk && newTable.validate())
             {
-                // If the the table already exists and meets the below condition(s)
+                // If the table already exists and meets the below condition(s)
                 // update the table. Otherwise delete and re-create
                 // Condition 1: Table's TYPE and STAGE hasn't changed
 
